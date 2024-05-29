@@ -7,6 +7,11 @@ def decode_plus_code(plus_code):
     coordinate = openlocationcode.decode(plus_code)
     return coordinate.latitudeCenter, coordinate.longitudeCenter
 
+#New
+@app.route('/')
+def root():
+    return "Welcome to your Plus Code API!"
+
 @app.route('/pluscode', methods=['POST'])
 def get_lat_lon():
     data = request.json
@@ -23,4 +28,4 @@ def get_lat_lon():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True,port=5050)
+    app.run(debug=False, host='0.0.0.0', port=5050)
