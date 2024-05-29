@@ -12,7 +12,7 @@ def decode_plus_code(plus_code):
 def root():
     return "Welcome to your Plus Code API!"
 
-@app.route('/pluscode', methods=['POST'])
+@app.route('/pluscode', methods=['GET','POST'])
 def get_lat_lon():
     data = request.json
     print(request.method)
