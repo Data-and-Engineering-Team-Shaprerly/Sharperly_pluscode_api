@@ -2,7 +2,7 @@
 
 This project is a web API that decodes Plus Codes into latitude and longitude coordinates. It is built using Flask, a lightweight web framework for Python, and deployed on Render.com.
 
-## Features
+## Features 
 
 - **Decode Plus Codes**: Convert Plus Codes into latitude and longitude coordinates.
 - **RESTful API**: Provides a simple interface to interact with the Plus Code decoding functionality.
