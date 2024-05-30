@@ -112,3 +112,18 @@ curl -X POST https://your-app-url.onrender.com/pluscode -H "Content-Type: applic
 - [Flask](https://flask.palletsprojects.com/)
 - [Plus Codes](https://github.com/google/open-location-code)
 - [Render.com](https://render.com/)
+
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For any inquiries or feedback, please contact [iampatelom@gmail.com].
+
+---
